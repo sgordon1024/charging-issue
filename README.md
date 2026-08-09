@@ -4,7 +4,7 @@
 
 **[Read the full case study](https://sgordon1024.github.io/charging-issue/)** — root-cause analysis, what every system showed during the failure, the 10-minute diagnostic path, dead ends to skip, measurements, and serial evidence.
 
-TL;DR: WS500 **fault 42** ("required sensor missing", alt-temp field `-99`) = the alternator temperature sensor failed **open** — found zip-tied loose behind the alternator instead of bolted to it — lead/crimp fatigue from heat + vibration, and compromised thermal protection all along. One thermistor + one ignition cycle = charging restored at 4.4 kW.
+TL;DR: WS500 **fault 42** ("required sensor missing", alt-temp field `-99`) = the alternator temperature sensor failed **open** — lead fatigue where the sensor's excess wire was cinched into a tight zip-tied bundle behind the alternator (the lug itself was properly bolted). One thermistor + one ignition cycle = charging restored at 4.4 kW.
 
 Files:
 - `index.html` — the case study (served via GitHub Pages)
