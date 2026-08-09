@@ -6,4 +6,4 @@ Diagnostic evidence for a Nations 48V engine generator + Wakespeed WS500 (Lithio
 - **[Download the evidence pack (txt)](ws500-evidence-for-nations.txt)** — plain-text summary + serial captures
 - **Raw WS500 serial capture** — see the `ws500-capture-*.log` file in this repo
 
-Current state: temp-sensor fault (42) fixed; WS500 fault-free and CAN-synced but delivers 0.0 A engine-running; feature-in (white wire) reads 0 V. Open question for Nations: is feature-in required-high in the 51V Lithionics program?
+**RESOLVED:** charging restored at 4.4 kW after replacing the failed-open alternator temp sensor (WS500 fault 42) — one clean ignition cycle after the repair re-armed the system.
